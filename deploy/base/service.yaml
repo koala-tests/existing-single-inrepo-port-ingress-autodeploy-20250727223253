@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: existing-single-inrepo-port-ingress-autodeploy-20250727223253
+spec:
+  ports:
+  selector:
+    app: existing-single-inrepo-port-ingress-autodeploy-20250727223253
